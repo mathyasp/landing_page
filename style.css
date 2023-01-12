@@ -104,3 +104,27 @@ button {
 .img-middle {
     width: 100%
 }
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote {
+    flex: 1 1 auto;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: auto;
+}
