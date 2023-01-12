@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
+.header {
     background-color: #1F2937;
     padding: 5px 100px 60px;
     font-weight: 600;
@@ -55,7 +57,7 @@ a, .secondary-text {
     margin-bottom: 10px;
 }
 
-.imgtop {
+.img-top {
     flex: 1 1 auto;
 }
 
@@ -74,4 +76,31 @@ button {
 .buttontop {
     flex-grow: 0;
     font-weight: 550;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.info-body {
+    display: flex;
+    gap: 20px;
+    padding: 0 80px 80px;
+}
+
+.body {
+    text-align: center;
+}
+
+.img-middle {
+    width: 100%
 }
