@@ -7,19 +7,19 @@ body {
 .header {
     background-color: #1F2937;
     padding: 5px 100px 60px;
-    font-weight: 600;
 }
 
 .top {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 100px;
 }
 
 .title {
     font-size: 24px;
     color: #F9FAF8;
-    margin-right: auto;
+    font-weight: 600;
 }
 
 ul {
@@ -32,12 +32,13 @@ a, .secondary-text {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .top-main {
     padding: 100px;
     display: flex;
+    overflow: hidden;
     gap: 25px;
 }
 
@@ -46,7 +47,6 @@ a, .secondary-text {
     display: flex;
     flex-direction: column;
     align-items: start;
-
 }
 
 .hero-text {
@@ -67,15 +67,15 @@ button {
     color: #E5E7EB;
     font-size: 18px;
     text-align: center;
-    border: none;
     border-radius: 8px;
     padding: 5px 30px;
     margin-top: 10px;
 }
 
 .buttontop {
-    flex-grow: 0;
+    flex: 0 0 0;
     font-weight: 550;
+    border: none;
 }
 
 .second {
@@ -127,4 +127,45 @@ button {
     font-size: 24px;
     font-weight: 600;
     margin-left: auto;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    padding: 30px 90px;
+    gap: 80px;
+}
+
+.fourth-info {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.fourth-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.buttonbottom {
+    border: 2px solid white;
+    flex: 0 0 auto;
+    margin-right: auto;
 }
