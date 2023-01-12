@@ -45,20 +45,20 @@ a, .secondary-text {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: start;
 
 }
 
 .hero-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
 
 .img-top {
     flex: 1 1 auto;
+
 }
 
 button {
