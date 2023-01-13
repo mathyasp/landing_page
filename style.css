@@ -4,52 +4,53 @@ body {
     flex-direction: column;
 }
 
-.header {
+header {
     background-color: #1F2937;
     padding: 5px 100px 60px;
 }
 
-.top {
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
 }
 
-.title {
+#logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 600;
+    font-weight: 900;
 }
 
-ul {
+.nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
 }
 
-a, .secondary-text {
+a, .secondary {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 100;
 }
 
-.top-main {
+.greeting {
     padding: 100px;
     display: flex;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
-.top-left {
-    flex: 1 1 auto;
+.greeting .left {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.hero-text {
+.hero {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -57,55 +58,52 @@ a, .secondary-text {
 }
 
 .img-top {
-    flex: 1 1 auto;
-
+    flex: 1;
 }
 
 button {
     background-color: #3882f6;
-    display: inline-block;
-    color: #E5E7EB;
-    font-size: 18px;
-    text-align: center;
     border-radius: 8px;
-    padding: 5px 30px;
-    margin-top: 10px;
+    font-weight: 550;
+    padding: 7px 16px;
+    width: 120px;
 }
 
-.buttontop {
-    flex: 0 0 0;
-    font-weight: 550;
+.greeting button {
     border: none;
 }
 
-.second {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.info-header {
+main h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     padding: 40px;
 }
 
-.info-body {
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 0 80px 80px;
 }
 
-.body {
+.chunk p {
     text-align: center;
+    color: #1F2937;
 }
 
 .img-middle {
     width: 100%
 }
 
-.third {
+.quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -114,7 +112,7 @@ button {
     padding: 120px;
 }
 
-.quote {
+.quote em {
     flex: 1 1 auto;
     color: #1F2937;
     font-size: 36px;
@@ -123,13 +121,13 @@ button {
     padding: 20px 0;
 }
 
-.author {
+.quote p {
     font-size: 24px;
     font-weight: 600;
     margin-left: auto;
 }
 
-.fourth {
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,40 +137,20 @@ button {
 .blue-box {
     background-color: #3882F6;
     display: flex;
+    align-items: center;
     border: none;
     border-radius: 8px;
     padding: 30px 90px;
     gap: 80px;
 }
 
-.fourth-info {
-    flex: 0 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.fourth-title {
-    font-size: 24px;
-    font-weight: 600;
-    color: #F9FAF8;
-    padding: 5px 0;
-}
-
-.fourth-text {
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: 100;
-}
-
-.buttonbottom {
+.sign-up button {
     border: 2px solid white;
-    flex: 0 0 auto;
-    font-weight: 550;
+    flex: 0 0 120px;
     margin-right: auto;
 }
 
-.footer {
+footer {
     display: flex;
     background-color: #1F2937;
     padding: 30px;
